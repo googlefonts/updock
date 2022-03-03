@@ -66,7 +66,7 @@ name = ccmp;
 },
 {
 automatic = 1;
-code = "lookup locl_latn_0 {\012	script latn;\012	language AZE;\012	sub i by idotaccent;\012	language CRT;\012	sub i by idotaccent;\012	language KAZ;\012	sub i by idotaccent;\012	language TAT;\012	sub i by idotaccent;\012	language TRK;\012	sub i by idotaccent;\012} locl_latn_0;\012\012lookup locl_latn_1 {\012	script latn;\012	language ROM;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012	language MOL;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012} locl_latn_1;\012\012lookup locl_latn_2 {\012	script latn;\012	language CAT;\012	sub l periodcentered' l by periodcentered.loclCAT;\012	sub L periodcentered' L by periodcentered.loclCAT;\012} locl_latn_2;\012";
+code = "lookup locl_latn_0 {\012	script latn;\012	language AZE;\012	language CRT;\012	language KAZ;\012	language TAT;\012	language TRK;\012	sub i by idotaccent;\012} locl_latn_0;\012\012lookup locl_latn_1 {\012	script latn;\012	language ROM;\012	language MOL;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012} locl_latn_1;\012\012lookup locl_latn_2 {\012	script latn;\012	language CAT;\012	sub l periodcentered' l by periodcentered.loclCAT;\012	sub L periodcentered' L by periodcentered.loclCAT;\012} locl_latn_2;\012";
 name = locl;
 },
 {
@@ -114,31 +114,35 @@ capHeight = 630;
 customParameters = (
 {
 name = typoAscender;
-value = 775;
+value = 900;
 },
 {
 name = typoDescender;
-value = -425;
+value = -350;
 },
 {
 name = typoLineGap;
 value = 0;
 },
 {
-name = winAscent;
-value = 797;
-},
-{
-name = winDescent;
-value = 424;
-},
-{
 name = hheaAscender;
-value = 775;
+value = 900;
 },
 {
 name = hheaDescender;
-value = -425;
+value = -350;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 900;
+},
+{
+name = winDescent;
+value = 350;
 },
 {
 name = strikeoutPosition;
@@ -16849,11 +16853,12 @@ rightMetricsKey = l;
 unicode = FB02;
 },
 {
+color = 3;
 glyphname = o_r;
-lastChange = "2022-03-02 21:18:25 +0000";
+lastChange = "2022-03-02 23:56:52 +0000";
 layers = (
 {
-layerId = "423D2297-FAE2-4393-80D6-0A1E9777D337";
+background = {
 paths = (
 {
 closed = 1;
@@ -16987,6 +16992,144 @@ nodes = (
 "17 47 OFFCURVE",
 "52 -9 OFFCURVE",
 "124 -9 CURVE SMOOTH"
+);
+}
+);
+};
+layerId = "423D2297-FAE2-4393-80D6-0A1E9777D337";
+paths = (
+{
+closed = 1;
+nodes = (
+"482 -1 OFFCURVE",
+"507 24 OFFCURVE",
+"528 73 CURVE SMOOTH",
+"539 100 OFFCURVE",
+"549 132 OFFCURVE",
+"558 172 CURVE SMOOTH",
+"559 177 OFFCURVE",
+"557 179 OFFCURVE",
+"553 179 CURVE SMOOTH",
+"550 179 OFFCURVE",
+"547 177 OFFCURVE",
+"546 172 CURVE SMOOTH",
+"542 150 OFFCURVE",
+"531 110 OFFCURVE",
+"518 80 CURVE SMOOTH",
+"497 31 OFFCURVE",
+"475 11 OFFCURVE",
+"452 11 CURVE SMOOTH",
+"432 11 OFFCURVE",
+"422 22 OFFCURVE",
+"422 46 CURVE SMOOTH",
+"422 67 OFFCURVE",
+"433 107 OFFCURVE",
+"456 167 CURVE SMOOTH",
+"469 201 OFFCURVE",
+"475 231 OFFCURVE",
+"475 254 CURVE SMOOTH",
+"475 305 OFFCURVE",
+"459 313 OFFCURVE",
+"410 326 CURVE SMOOTH",
+"399 329 OFFCURVE",
+"352 338 OFFCURVE",
+"345 340 CURVE",
+"345 354 LINE SMOOTH",
+"345 386 OFFCURVE",
+"334 402 OFFCURVE",
+"321 402 CURVE SMOOTH",
+"309 402 OFFCURVE",
+"298 392 OFFCURVE",
+"298 371 CURVE SMOOTH",
+"298 354 OFFCURVE",
+"312 335 OFFCURVE",
+"332 328 CURVE",
+"332 219 OFFCURVE",
+"292 81 OFFCURVE",
+"187 80 CURVE SMOOTH",
+"106 80 OFFCURVE",
+"68 154 OFFCURVE",
+"70 243 CURVE",
+"58 235 LINE",
+"58 136 OFFCURVE",
+"94 65 OFFCURVE",
+"185 65 CURVE SMOOTH",
+"303 65 OFFCURVE",
+"346 199 OFFCURVE",
+"346 327 CURVE",
+"391 319 OFFCURVE",
+"429 304 OFFCURVE",
+"429 269 CURVE SMOOTH",
+"429 259 OFFCURVE",
+"426 243 OFFCURVE",
+"421 221 CURVE SMOOTH",
+"409 166 OFFCURVE",
+"393 108 OFFCURVE",
+"393 72 CURVE SMOOTH",
+"393 25 OFFCURVE",
+"413 -1 OFFCURVE",
+"452 -1 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"176 -9 OFFCURVE",
+"212 40 OFFCURVE",
+"231 96 CURVE SMOOTH",
+"245 136 OFFCURVE",
+"252 177 OFFCURVE",
+"252 228 CURVE SMOOTH",
+"252 316 OFFCURVE",
+"215 400 OFFCURVE",
+"145 400 CURVE SMOOTH",
+"90 400 OFFCURVE",
+"50 347 OFFCURVE",
+"45 276 CURVE",
+"28 242 OFFCURVE",
+"17 201 OFFCURVE",
+"17 151 CURVE SMOOTH",
+"17 47 OFFCURVE",
+"52 -9 OFFCURVE",
+"124 -9 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"73 6 OFFCURVE",
+"63 64 OFFCURVE",
+"63 129 CURVE SMOOTH",
+"63 148 OFFCURVE",
+"63 161 OFFCURVE",
+"64 177 CURVE",
+"81 280 OFFCURVE",
+"108 329 OFFCURVE",
+"146 329 CURVE SMOOTH",
+"152 329 OFFCURVE",
+"160 327 OFFCURVE",
+"168 324 CURVE SMOOTH",
+"173 322 OFFCURVE",
+"176 325 OFFCURVE",
+"176 328 CURVE SMOOTH",
+"176 335 OFFCURVE",
+"167 341 OFFCURVE",
+"143 341 CURVE SMOOTH",
+"114 340 OFFCURVE",
+"89 331 OFFCURVE",
+"71 312 CURVE",
+"80 359 OFFCURVE",
+"106 386 OFFCURVE",
+"145 386 CURVE SMOOTH",
+"205 386 OFFCURVE",
+"229 309 OFFCURVE",
+"229 227 CURVE SMOOTH",
+"229 178 OFFCURVE",
+"224 128 OFFCURVE",
+"205 81 CURVE SMOOTH",
+"185 32 OFFCURVE",
+"160 6 OFFCURVE",
+"129 6 CURVE SMOOTH"
 );
 }
 );
@@ -30865,5 +31008,5 @@ manufacturer = "Robert E. Leuschke";
 manufacturerURL = www.typesetit.com;
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 3;
+versionMinor = 4;
 }
