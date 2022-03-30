@@ -1,7 +1,7 @@
 {
 .appVersion = "1360";
 DisplayStrings = (
-"/hookabovecomb/circumflexcomb_hookabovecomb"
+l
 );
 copyright = "Copyright 1991-2021 The Up Dock Project Authors (https://github.com/googlefonts/updock)";
 customParameters = (
